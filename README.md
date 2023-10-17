@@ -13,7 +13,8 @@ To develop an LSTM-based model for recognizing the named entities in the text.
 
 .Bidirectional Recurrent Neural Networks connect two hidden layers of opposite directions to the same output.
 ## Neural Network Model:
-![dl6](https://github.com/Saibandhavi75/named-entity-recognition/assets/94208895/63937ef6-bf13-459e-9804-d5332ae09c24)
+![image](https://github.com/Pallavi-Raveendranadreddy/named-entity-recognition/assets/94294872/da2c7077-33bb-4a7b-9f78-c8ee86cf07d7)
+
 
 
 ## DESIGN STEPS
@@ -169,11 +170,14 @@ for w, true, pred in zip(X_test[i], y_true, p[0]):
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
-![image](https://github.com/Saibandhavi75/named-entity-recognition/assets/94208895/2030328a-1bcd-4799-a0a0-8ddf5b7dd947)
+![image](https://github.com/Pallavi-Raveendranadreddy/named-entity-recognition/assets/94294872/a1e59ec5-1ec5-4f2b-97fe-d6a025fefc47)
+
 ### Accuracy, Validation Accuracy Vs Iteration Plot:
-![image](https://github.com/Saibandhavi75/named-entity-recognition/assets/94208895/484298a7-5794-4238-907d-ea64237c7e62)
+![image](https://github.com/Pallavi-Raveendranadreddy/named-entity-recognition/assets/94294872/ccc3a73a-1323-42fb-a8cc-362118a2f2d2)
+
 ### Sample Text Prediction
-![image](https://github.com/Saibandhavi75/named-entity-recognition/assets/94208895/0e34213c-4e69-4e01-98bb-f1812368fb19)
+![image](https://github.com/Pallavi-Raveendranadreddy/named-entity-recognition/assets/94294872/837bf9b5-9801-499e-8ead-92ff5241fa55)
+
 
 ## RESULT
 Thus, an LSTM-based model for recognizing the named entities in the text is successfully developed.
